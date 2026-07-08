@@ -1,0 +1,16 @@
+name: license_generator
+description: CLI tool for generating digitally signed license files for flutter_license_guard.
+version: 1.0.0
+homepage: https://github.com/your-org/flutter_license_guard
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  crypto: ^3.0.3
+  cryptography: ^2.7.0
+  args: ^2.4.2
+  uuid: ^4.3.3
+
+dev_dependencies:
+  test: ^1.25.2

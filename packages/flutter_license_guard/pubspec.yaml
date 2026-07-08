@@ -1,0 +1,28 @@
+name: flutter_license_guard
+description: A reusable offline licensing SDK for Flutter Desktop applications with device-based activation, digital signatures, and tamper detection.
+version: 1.0.0
+homepage: https://github.com/your-org/flutter_license_guard
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3
+  cryptography: ^2.7.0
+  path_provider: ^2.1.2
+  uuid: ^4.3.3
+  meta: ^1.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.2
+
+flutter:
+  plugin:
+    platforms:
+      windows:
+        dartPluginClass: FlutterLicenseGuardWindows
