@@ -22,7 +22,3 @@ dev_dependencies:
   mocktail: ^1.0.2
 
 flutter:
-  plugin:
-    platforms:
-      windows:
-        dartPluginClass: FlutterLicenseGuardWindows
